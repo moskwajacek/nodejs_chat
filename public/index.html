@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div id="content">
+    <div id="room"></div>
+    <div id="room-list"></div>
+    <div id="messages"></div>
+
+    <form id="send-form">
+        <input id="send-message">
+        <input id="send-button" type="submit" value="Wyslij">
+
+        <div id="help">
+            <ul>
+                <li>Zmiana nazwy urzytkownika: <code>/nick [nazwa uzytkownika]</code></li>
+                <li>Przejscie do utworzenia pokoju: <code>/join [nazwa pokoju]</code></li>
+            </ul>
+        </div>
+    </form>
+</div>
+</body>
+<script src="/socket.io/socket.io.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/chat.js" type="text/javascript"></script>
+<script src="js/chat_ui.js" type="text/javascript"></script>
+</html>

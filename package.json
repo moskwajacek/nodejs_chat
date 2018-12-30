@@ -1,0 +1,16 @@
+{
+  "name": "nwa_chat",
+  "version": "1.0.0",
+  "description": "node socket.io chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JM",
+  "license": "MIT",
+  "dependencies": {
+    "mime": "^2.4.0",
+    "nodemon": "^1.18.9",
+    "socket.io": "^2.2.0"
+  }
+}
